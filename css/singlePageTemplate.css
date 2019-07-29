@@ -22,11 +22,11 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+	background-color: #D5AB52;
+	border-bottom: 1px solid #D5AB52;
 }
 .logo {
-	color: #fff;
+	color: #000000;
 	font-weight: bold;
 	text-align: undefined;
 	width: 17%;
@@ -47,7 +47,7 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 14px;
 	text-align: left;
 	margin-right: 25px;
@@ -56,11 +56,11 @@ nav ul li {
 	transition: all 0.3s linear;
 }
 ul li a {
-	color: #FFFFFF;
+	color: #000000;
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #ffffff;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -74,6 +74,7 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
+	background-image: url("../images/logo-03.jpg");
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
@@ -148,7 +149,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
+	background-image: url(../images/logo-01.png);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
